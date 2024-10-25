@@ -10,11 +10,14 @@ const Home = () => {
           <TextChange />
         </h1>
         <p className="text-sm py-2 md:text-2xl tracking-tight ">
-         I'm a software developer who specializes in web and mobile applications.
+          Renastere Dev specializes in delivering custom web, mobile, and dedicated software solutions
+          with a strong focus on customer satisfaction.
         </p>
+        <a href="#Footer">
         <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          Contact Me
-        </button>
+          Contact Us
+          </button>
+        </a>
       </div>
       <div>
         <img className="" src={avatarImg} alt="" />

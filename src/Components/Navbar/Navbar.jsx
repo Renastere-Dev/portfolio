@@ -5,8 +5,9 @@ const Navbar = () => {
   const [showMenu, setShowmenu] = useState(true);
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-      <span className="text-xl font-bold tracking-wide">Ariyo's Portfolio</span>
-
+      <a href="#">
+      <span className="text-xl font-bold tracking-wide">Renastere Dev</span>
+      </a>
       <ul
         className={`${
           menu ? "block" : "hidden"

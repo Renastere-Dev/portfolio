@@ -18,18 +18,17 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Frontend developer
+                Renastere Dev
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qui
-                  similique recusandae provident consectetur sed itaque alias
-                  sint ipsa?
-                </p>
+                  We're a forward-thinking software development company dedicated to delivering exceptional customer
+                  satisfaction. Specializing in creating custom web, mobile, and dedicated software solutions,
+                  Renastere Dev tailors each project to meet the unique needs and goals of their clients.
+                  Their commitment to quality, innovation, and seamless user experiences has earned them a reputation
+                  as a trusted partner for businesses seeking reliable, scalable, and cutting-edge software development services.                </p>
               </span>
             </div>
-            <div className="flex gap-3 py-4">
+            {/* <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
 
               <span className="w-96">
@@ -55,7 +54,7 @@ const About = () => {
                   perferendis
                 </p>
               </span>
-            </div>
+            </div> */}
           </ul>
         </div>
       </div>
